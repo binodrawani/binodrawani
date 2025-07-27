@@ -22,7 +22,6 @@ const Footer = ({isDarkMode}) => {
             <li><a target='_blank' href="https://x.com/binodrawani">Twitter</a></li>
         </ul>
     </div>
-
     </div>
   )
 }
