@@ -2,6 +2,8 @@
 import React from "react";
 import NavbarFinance from "@/components/NavbarFinance";
 import { motion } from "framer-motion";
+import { Cover } from "@/components/ui/cover";
+import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 
 export default function Home() {
@@ -22,7 +24,7 @@ export default function Home() {
     animate={{ opacity: 1, y: 0 }}
     transition={{ delay: 0.3 }}
   >
-    Secure Your <span className="text-[#FFD700]">Financial Future</span>
+    Secure Your <Cover><span className="text-[#FFD700]">Financial Future</span></Cover>
   </motion.h2>
   <motion.p
     className="text-lg md:text-xl mb-6 max-w-2xl text-[#1F2937]"
@@ -36,7 +38,8 @@ export default function Home() {
         </button>
   </motion.p>
 </motion.section>
-      <section className="bg-white py-16 px-6">
+    <BackgroundBeamsWithCollision>
+      <section className="bg-white py-16 px-2">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-3xl font-bold mb-10 text-[#0B2545]">What We Offer</h3>
           <div className="grid md:grid-cols-3 gap-8">
@@ -55,6 +58,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+    </BackgroundBeamsWithCollision>
+      
       <section className="bg-[#EEF2F7] py-16 px-6">
   <div className="max-w-4xl mx-auto text-center">
     <h3 className="text-3xl font-bold mb-6 text-[#0B2545]">Get In Touch</h3>
