@@ -1,49 +1,66 @@
-import React, { useState, useEffect } from "react";
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
 
 export default function NavbarFinance() {
-  const [isScroll, setIsScroll] = useState(false)
   const [isOpen, setIsOpen] = useState(false);
 
-useEffect(() => {
-        window.addEventListener('scroll', () => {
-            if (scrollY > 50) {
-                setIsScroll(true)
-            } else {
-                setIsScroll(false)
-            }
-        })
-    }, [])
-
   return (
-    <nav className={'bg-[#0B2545] shadow-md fixed w-full z-50 ${isScroll ? "bg-white bg-opacity-70 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}'}>
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-white tracking-wide">
-          Binod<span className="text-[#FFD700]">Rawani</span>
+    <nav className="bg-[#0B2545] shadow-md px-6 py-4 flex justify-between items-center">
+      {/* Logo */}
+      <h1 className="text-2xl font-bold text-white tracking-wide">
+          TWB<span className="text-[#FFD700]">Finance</span>
         </h1>
-        <ul className="hidden md:flex gap-8 text-white font-medium ">
-          <li className="hover:text-[#FFD700] transition relative group cursor-pointer">Home<span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span></li>
-          <li className="hover:text-[#FFD700] transition relative group cursor-pointer">Services<span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span></li>
-          <li className="hover:text-[#FFD700] transition relative group cursor-pointer">About<span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span></li>
-          <li className="hover:text-[#FFD700] transition relative group cursor-pointer">Contact<span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span></li>
 
-        </ul>
-        <button
-          className="md:hidden text-white text-2xl"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? "✖" : "☰"}
-        </button>
-      </div>
+      {/* Desktop Menu */}
+      <ul className="hidden md:flex gap-8 font-medium text-white">
+        <li className="hover:text-[#FFD700] transition relative group cursor-pointer">
+          <Link href="/finance">Home</Link>
+          <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        <li className="hover:text-[#FFD700] transition relative group cursor-pointer">
+          <Link href="/finance/About">About Us</Link>
+          <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        <li className="hover:text-[#FFD700] transition relative group cursor-pointer">
+          <Link href="/finance/Services">Services</Link>
+          <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        <li className="hover:text-[#FFD700] transition relative group cursor-pointer">
+          <Link href="/finance/Contact">Contact Us</Link>
+          <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#FFD700] transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        <li>
+            <a href="/finance/auth" className="bg-[#FFD700] text-[#0B2545] px-4 py-2 rounded-lg font-semibold shadow hover:bg-yellow-500 hover:shadow-lg transition">
+              Register
+            </a>
+          </li>
+      </ul>
+
+      {/* Mobile Toggle */}
+      <button
+        className="md:hidden p-2 border rounded"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? "✖" : "☰"}
+      </button>
+
+      {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden flex flex-col gap-4 bg-[#0B2545] px-6 py-4 text-white">
-          <li className="hover:text-[#FFD700] transition">Home</li>
-          <li className="hover:text-[#FFD700] transition">Services</li>
-          <li className="hover:text-[#FFD700] transition">About</li>
-          <li className="hover:text-[#FFD700] transition">Contact</li>
-
+        <ul className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col gap-4 p-4 font-medium md:hidden">
+          <li>
+            <Link href="/finance" onClick={() => setIsOpen(false)}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/finance/about" onClick={() => setIsOpen(false)}>
+              About Us
+            </Link>
+          </li>
         </ul>
       )}
     </nav>
-
   );
 }
