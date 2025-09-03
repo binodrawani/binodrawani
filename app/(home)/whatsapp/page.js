@@ -65,7 +65,6 @@ const Whatsapp = () => {
           </p>
         </div>
       </div>
-
       {/* Call to Action */}
       <a
         href="https://chat.whatsapp.com/LO6civAx80C3TIBf72sOer"
