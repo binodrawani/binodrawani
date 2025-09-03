@@ -1,62 +1,90 @@
 {
   "pages": {
-    "/(home)/page": [
-      "static/chunks/_22d2ba._.js",
-      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
-      "static/chunks/[root of the server]__b537f8._.css",
-      "static/chunks/app_(home)_layout_06ed6b.js",
-      "static/chunks/app_(home)_layout_61af54.js",
-      "static/chunks/_5dbbad._.js",
-      "static/chunks/node_modules_8ed55d._.js",
-      "static/chunks/app_(home)_page_3b5f66.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
-      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
-      "static/chunks/node_modules_next_dist_client_523921._.js",
-      "static/chunks/node_modules_next_dist_4bb10e._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
-      "static/chunks/_e69f0d._.js",
-      "static/chunks/_d95469._.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/app/_not-found/page-0852f521522f7f94.js"
     ],
-    "/(home)/whatsapp/page": [
-      "static/chunks/_22d2ba._.js",
-      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
-      "static/chunks/[root of the server]__b537f8._.css",
-      "static/chunks/app_(home)_layout_06ed6b.js",
-      "static/chunks/app_(home)_layout_61af54.js",
-      "static/chunks/_1d05fd._.js",
-      "static/chunks/app_(home)_whatsapp_page_3b5f66.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
-      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
-      "static/chunks/node_modules_next_dist_client_523921._.js",
-      "static/chunks/node_modules_next_dist_4bb10e._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
-      "static/chunks/_e69f0d._.js",
-      "static/chunks/_d95469._.js"
+    "/(investment)/finance/layout": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/css/c6d04e30f1aa7dee.css",
+      "static/chunks/app/(investment)/finance/layout-0e73c77dcaa74981.js"
+    ],
+    "/(investment)/finance/Contact/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/200-0d9b91977e31fe74.js",
+      "static/chunks/123-02cd6de926e73522.js",
+      "static/chunks/app/(investment)/finance/Contact/page-eb8a8fdc44ca0fab.js"
+    ],
+    "/(investment)/finance/About/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/200-0d9b91977e31fe74.js",
+      "static/chunks/123-02cd6de926e73522.js",
+      "static/chunks/app/(investment)/finance/About/page-2538745e49090a65.js"
+    ],
+    "/(investment)/finance/Services/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/200-0d9b91977e31fe74.js",
+      "static/chunks/123-02cd6de926e73522.js",
+      "static/chunks/app/(investment)/finance/Services/page-13deee06e8f243bd.js"
+    ],
+    "/(investment)/finance/auth/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/200-0d9b91977e31fe74.js",
+      "static/chunks/app/(investment)/finance/auth/page-23c10149bcab781f.js"
     ],
     "/(investment)/finance/page": [
-      "static/chunks/_22d2ba._.js",
-      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
-      "static/chunks/app_globals_73c377.css",
-      "static/chunks/app_(investment)_finance_layout_18f5ab.js",
-      "static/chunks/app_(investment)_finance_layout_61af54.js",
-      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854ac._.js",
-      "static/chunks/node_modules_@tsparticles_engine_browser_985428._.js",
-      "static/chunks/node_modules_motion_dist_es_86adcb._.js",
-      "static/chunks/node_modules_framer-motion_dist_es_946fd9._.js",
-      "static/chunks/node_modules_motion-dom_dist_es_484447._.js",
-      "static/chunks/node_modules_970611._.js",
-      "static/chunks/_2573fb._.js",
-      "static/chunks/app_(investment)_finance_page_728ff6.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
-      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
-      "static/chunks/node_modules_next_dist_client_523921._.js",
-      "static/chunks/node_modules_next_dist_4bb10e._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
-      "static/chunks/_e69f0d._.js",
-      "static/chunks/_d95469._.js"
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/200-0d9b91977e31fe74.js",
+      "static/chunks/123-02cd6de926e73522.js",
+      "static/chunks/588-7614ae665c9bde62.js",
+      "static/chunks/691-dd672260b8ec711a.js",
+      "static/chunks/app/(investment)/finance/page-161f6279d30fa965.js"
+    ],
+    "/(home)/layout": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/css/c83215ce34e9a077.css",
+      "static/css/c6d04e30f1aa7dee.css",
+      "static/chunks/app/(home)/layout-ff7d1f04d386049a.js"
+    ],
+    "/(home)/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/588-7614ae665c9bde62.js",
+      "static/chunks/607-be586868a55d4786.js",
+      "static/chunks/app/(home)/page-efef676e24907a23.js"
+    ],
+    "/(home)/whatsapp/page": [
+      "static/chunks/webpack-b2b1a0b615fba0b5.js",
+      "static/chunks/2c913ea3-f77b522ca87815ac.js",
+      "static/chunks/341-2d546ef92ef35bc1.js",
+      "static/chunks/main-app-34915a7d127da360.js",
+      "static/chunks/app/(home)/whatsapp/page-7a9ad67fa32ee572.js"
     ]
   }
 }

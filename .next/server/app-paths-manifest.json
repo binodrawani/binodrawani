@@ -1,6 +1,11 @@
 {
-  "/(home)/page": "app/(home)/page.js",
-  "/(home)/whatsapp/page": "app/(home)/whatsapp/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(investment)/finance/Contact/page": "app/(investment)/finance/Contact/page.js",
+  "/(investment)/finance/About/page": "app/(investment)/finance/About/page.js",
+  "/(investment)/finance/Services/page": "app/(investment)/finance/Services/page.js",
+  "/(investment)/finance/auth/page": "app/(investment)/finance/auth/page.js",
   "/(investment)/finance/page": "app/(investment)/finance/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/(home)/page": "app/(home)/page.js",
+  "/(home)/whatsapp/page": "app/(home)/whatsapp/page.js"
 }
