@@ -40,8 +40,8 @@ const Whatsapp = () => {
       </h1>
       <p className="text-lg md:text-xl text-gray-300 text-center max-w-2xl mb-10 relative z-10">
         हम से जुड़ के पहले कमाईये, देखिये सीखिये, फिर खुद निर्णय लीजिये
-        <p>EVERYTHING. 🚀 Absolutely{" "}
-        <span className="text-green-400 font-bold">FREE</span>.</p>
+        <p>EVERYTHING.  Absolutely{" "}
+        <span className="text-green-400 font-bold">FREE</span> जल्दी कीजिये  🚀🚀🚀 </p>
       </p>
 
       {/* Benefits Section */}
