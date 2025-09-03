@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/React%20Project/portfolio/app/%28investment%29/finance/layout.js"],"sourcesContent":["\r\nimport { Outfit, Ovo} from \"next/font/google\";\r\nimport \"../../globals.css\";\r\n\r\n\r\n\r\nexport default function FinanceLayout({ children }) {\r\n  return (\r\n    <html lang=\"en\" className=\"scroll-smooth\">\r\n      <body>\r\n        {children}\r\n      </body>\r\n    </html>\r\n  );\r\n}"],"names":[],"mappings":";;;;;;AAMe,SAAS,cAAc,EAAE,QAAQ,EAAE;IAChD,qBACE,8OAAC;QAAK,MAAK;QAAK,WAAU;kBACxB,cAAA,8OAAC;sBACE;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file://E%3A/React%20Project/portfolio/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

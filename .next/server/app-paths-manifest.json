@@ -1,4 +1,8 @@
 {
+  "/(home)/page": "app/(home)/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(investment)/finance/page": "app/(investment)/finance/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/whatsapp/page": "app/whatsapp/page.js",
+  "/(home)/whatsapp/page": "app/(home)/whatsapp/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
