@@ -1,0 +1,27 @@
+{
+  "pages": {
+    "/(investment)/finance/page": [
+      "static/chunks/_22d2ba._.js",
+      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
+      "static/chunks/app_globals_73c377.css",
+      "static/chunks/app_(investment)_finance_layout_18f5ab.js",
+      "static/chunks/app_(investment)_finance_layout_61af54.js",
+      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854ac._.js",
+      "static/chunks/node_modules_@tsparticles_engine_browser_985428._.js",
+      "static/chunks/node_modules_motion_dist_es_86adcb._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_946fd9._.js",
+      "static/chunks/node_modules_motion-dom_dist_es_484447._.js",
+      "static/chunks/node_modules_970611._.js",
+      "static/chunks/_2573fb._.js",
+      "static/chunks/app_(investment)_finance_page_728ff6.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
+      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
+      "static/chunks/node_modules_next_dist_client_523921._.js",
+      "static/chunks/node_modules_next_dist_4bb10e._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
+      "static/chunks/_e69f0d._.js",
+      "static/chunks/_d95469._.js"
+    ]
+  }
+}
