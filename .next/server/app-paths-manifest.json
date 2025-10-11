@@ -1,11 +1,12 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/(investment)/finance/About/page": "app/(investment)/finance/About/page.js",
-  "/(investment)/finance/Contact/page": "app/(investment)/finance/Contact/page.js",
-  "/(investment)/finance/Services/page": "app/(investment)/finance/Services/page.js",
   "/(investment)/finance/auth/page": "app/(investment)/finance/auth/page.js",
+  "/(investment)/finance/Contact/page": "app/(investment)/finance/Contact/page.js",
   "/(investment)/finance/page": "app/(investment)/finance/page.js",
+  "/(investment)/finance/Services/page": "app/(investment)/finance/Services/page.js",
+  "/(home)/landing/learning360guide/page": "app/(home)/landing/learning360guide/page.js",
+  "/(home)/landing/learning360guide/success/page": "app/(home)/landing/learning360guide/success/page.js",
   "/(home)/landing/medicare360guide/page": "app/(home)/landing/medicare360guide/page.js",
   "/(home)/page": "app/(home)/page.js",
   "/(home)/whatsapp/page": "app/(home)/whatsapp/page.js"

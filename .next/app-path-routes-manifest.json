@@ -1,12 +1,1 @@
-{
-  "/favicon.ico/route": "/favicon.ico",
-  "/_not-found/page": "/_not-found",
-  "/(investment)/finance/About/page": "/finance/About",
-  "/(investment)/finance/Contact/page": "/finance/Contact",
-  "/(investment)/finance/Services/page": "/finance/Services",
-  "/(investment)/finance/auth/page": "/finance/auth",
-  "/(investment)/finance/page": "/finance",
-  "/(home)/landing/medicare360guide/page": "/landing/medicare360guide",
-  "/(home)/page": "/",
-  "/(home)/whatsapp/page": "/whatsapp"
-}
+{"/_not-found/page":"/_not-found","/(investment)/finance/About/page":"/finance/About","/(investment)/finance/auth/page":"/finance/auth","/(investment)/finance/Contact/page":"/finance/Contact","/(investment)/finance/page":"/finance","/(investment)/finance/Services/page":"/finance/Services","/(home)/landing/learning360guide/page":"/landing/learning360guide","/(home)/landing/learning360guide/success/page":"/landing/learning360guide/success","/(home)/landing/medicare360guide/page":"/landing/medicare360guide","/(home)/page":"/","/(home)/whatsapp/page":"/whatsapp"}
