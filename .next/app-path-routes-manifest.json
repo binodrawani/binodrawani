@@ -1,1 +1,12 @@
-{"/_not-found/page":"/_not-found","/favicon.ico/route":"/favicon.ico","/(investment)/finance/About/page":"/finance/About","/(investment)/finance/Services/page":"/finance/Services","/(investment)/finance/Contact/page":"/finance/Contact","/(investment)/finance/page":"/finance","/(investment)/finance/auth/page":"/finance/auth","/(home)/page":"/","/(home)/whatsapp/page":"/whatsapp"}
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/(investment)/finance/About/page": "/finance/About",
+  "/(investment)/finance/Contact/page": "/finance/Contact",
+  "/(investment)/finance/Services/page": "/finance/Services",
+  "/(investment)/finance/auth/page": "/finance/auth",
+  "/(investment)/finance/page": "/finance",
+  "/(home)/landing/medicare360guide/page": "/landing/medicare360guide",
+  "/(home)/page": "/",
+  "/(home)/whatsapp/page": "/whatsapp"
+}
